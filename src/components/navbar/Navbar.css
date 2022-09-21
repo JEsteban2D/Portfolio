@@ -1,0 +1,28 @@
+.container__principal--navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;   
+  background-color: orange;
+}
+
+.icon__navbar {
+  width: 4rem;
+  height: 90%;
+}
+
+.container__links--navbar {
+  margin-right: 3rem;
+  background-color: brown;
+}
+
+.ul__links--navbar {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  background-color: white;
+}
+
+.li__links--navbar {
+  list-style: none;
+}

@@ -1,0 +1,17 @@
+.container-section-me {
+  display: grid;
+  width: 50%;
+  margin: auto;
+  grid-gap: 1rem;
+  background-color: brown;
+}
+
+.text-me {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tittle-me {
+  font-size: 80px;
+  font-weight: 700;
+}

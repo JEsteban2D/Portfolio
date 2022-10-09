@@ -1,9 +1,8 @@
 .container-section-me {
   display: grid;
-  width: 50%;
   margin: auto;
   grid-gap: 1rem;
-  background-color: brown;
+  padding: 1rem;
 }
 
 .text-me {

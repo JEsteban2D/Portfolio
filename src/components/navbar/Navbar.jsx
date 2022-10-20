@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className='container__principal--navbar'>
       <div className='container__icon--navbar'>
-        <div><img className='icon__navbar'  src="" alt="Icon" /></div>
+      <a href="/"><h1 className='tittle__navbar'>JEsteban2D</h1></a>
       </div>
       <div className='container__links--navbar'>
         <ul className='ul__links--navbar'>

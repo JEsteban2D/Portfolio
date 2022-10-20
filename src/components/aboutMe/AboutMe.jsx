@@ -3,13 +3,11 @@ import './AboutMe.css';
 
 export const AboutMe = () => {
   return (
-    <div className="container-principal-aboutMe">
+    <section className="container-principal-aboutMe">
       <div>
+          <h1 htmlFor="" className="tittle-aboutMe">About Me</h1>
         <div>
-          <label htmlFor="" className="tittle-aboutMe">About Me</label>
-        </div>
-        <div>
-          <label htmlFor="" className="text-aboutMe">
+          <p htmlFor="" className="text-aboutMe">
             Hello! My name is Brittany and I enjoy creating things that live on
             the internet. My interest in web development started back in 2012
             when I decided to try editing custom Tumblr themes — turns out
@@ -22,20 +20,21 @@ export const AboutMe = () => {
             course that covers everything you need to build a web app with the
             Spotify API using Node and React. Here are a few technologies I’ve
             been working with recently:
-          </label>
+          </p>
         </div>
         <div>
           <ul>
-            <li>JavaScript (ES6+)</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>WordPress</li>
+            <li className="li-aboutMe">HTML</li>
+            <li className="li-aboutMe">CSS</li>
+            <li className="li-aboutMe">JavaScript (ES6+)</li>
+            <li className="li-aboutMe">React</li>
+            <li className="li-aboutMe">Node.js</li>
           </ul>
         </div>
       </div>
       <div>
         <div className="img-aboutMe"></div>
       </div>
-    </div>
+    </section>
   );
 }

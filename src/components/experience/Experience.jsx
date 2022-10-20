@@ -9,9 +9,7 @@ export const Experience = () => {
           <label htmlFor="" className='tittle-experience'>Where I’ve Worked</label>
         </div>
         <ul className='ul-experience'>
-          <li>Interia S.A.S</li>
-          <li>Interia S.A.S</li>
-          <li>Interia S.A.S</li>
+          <li className='li-experience'>Nekot</li>
         </ul>
       </div>
       <div className='container-information-experience'>

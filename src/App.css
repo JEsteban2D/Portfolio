@@ -1,5 +1,9 @@
+* {
+  text-decoration: none;
+}
 .body {
   display: grid;
   padding: 10rem 20rem;
   gap: 10rem;
+  background-color: #1c1c1c;
 }

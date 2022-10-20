@@ -1,16 +1,16 @@
 .container-section-me {
-  display: grid;
+  height: 50rem;
   margin: auto;
-  grid-gap: 1rem;
-  padding: 1rem;
 }
 
 .text-me {
   font-size: 20px;
   font-weight: 500;
+  color: rgb(17, 233, 161);
 }
 
 .tittle-me {
   font-size: 80px;
   font-weight: 700;
+  color: rgb(17, 233, 161);
 }

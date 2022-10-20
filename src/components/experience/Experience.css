@@ -1,13 +1,13 @@
 .container-principal-experience {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem;
-  background-color: greenyellow;    
+  padding: 1rem; 
 }
 
 .tittle-experience {
   font-size: 40px;
   font-weight: 700;
+  color: rgb(17, 233, 161);
 }
 
 .ul-experience {
@@ -15,8 +15,15 @@
   grid-gap: 2rem;
 }
 
+.li-experience {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(17, 233, 161);
+}
+
 .container-information-experience {
   width: 100%;
   height: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(110, 110, 110);
 }

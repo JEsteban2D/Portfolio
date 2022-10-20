@@ -1,0 +1,45 @@
+.tittle__Works {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(17, 233, 161);
+  margin-bottom: 3rem;
+}
+
+.container__grid--Works {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.container__card--Works {
+  padding: 1rem;
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(35, 51, 46);
+  border: rgb(17, 233, 161) 2px solid;
+}
+
+.img__card--Works {
+  width: 40px;
+  height: 40px;
+}
+
+.tittle__card--Works {
+  color: aliceblue;
+}
+
+.text__card--Works {
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.ul__card--Works {
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.li__card--Works {
+  color: beige;
+  list-style: none;
+}

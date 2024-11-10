@@ -1,0 +1,50 @@
+.container {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+
+}
+
+.containerText {
+  padding: 3rem;
+}
+
+.containerTitle {
+  font-size: 50px;
+}
+
+.containerParrafo {
+  font-size: 25px;
+}
+
+.containerImage {
+  display: flex;
+  position: relative;
+}
+
+.imageAnguila {
+  position: relative;
+  right: -6rem;
+  top: -18rem;
+  z-index: 5;
+}
+
+.imageProfile {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(102, 102, 102);
+  position: relative;
+  left: -10rem;
+  top: -10rem;
+  z-index: 2;
+}

@@ -1,0 +1,48 @@
+.canvaContainer {
+  position: relative;
+  width: 400px;
+  z-index: 5;
+}
+
+.canva {
+  width: 400px;
+  height: 400px;
+}
+
+.targetOne {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  /* background-color: red; */
+}
+.targetTwo{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  /* background-color: red; */
+}
+.targetTree {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  /* background-color: red; */
+}
+
+.targetFor {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  /* background-color: red; */
+}

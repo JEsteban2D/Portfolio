@@ -1,0 +1,54 @@
+
+@keyframes charge {
+    from {
+      transform: translateY(2rem);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes wave {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .containerWave {
+    position: relative;
+    height: 800px;
+  }
+  
+  .wave {
+    opacity: 0.6;
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    width: 6000px;
+    height: 6000px;
+    background-image: url(portrait-of-woman-holding-a-laptop-D748DGQ.jpg);
+    margin-left: -3000px;
+    transform-origin: 50% 48%;
+    border-radius: 46%;
+    animation: wave 12s infinite linear;
+    pointer-events: none;
+  }
+  
+  .wave2 {
+    animation: wave 28s infinite linear;
+    opacity: 0.3;
+  }
+  
+  .wave3 {
+    animation: wave 20s infinite linear;
+    opacity: 0.1;
+  }
+  
+  .wave {
+    background: #000b31;
+  }

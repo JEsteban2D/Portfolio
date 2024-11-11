@@ -1,0 +1,17 @@
+.containerCards{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 4rem;
+ margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  border: 2px #9f9f9f solid;   
+  width: 100%; 
+  background-color: #004e8c;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+}
